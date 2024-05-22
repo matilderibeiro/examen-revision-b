@@ -7,6 +7,7 @@
     border-radius: 5px;
     color: #003566;
     box-shadow: 0px 0px 4px 0px rgba(#003566, 0.25);
+    animation: calltoaction 0.8s alternate infinite;
   }
 
   .loader {
@@ -18,5 +19,27 @@
     background: #ffbe0b;
     border-radius: 50px;
     color: #fff;
+    animation: loading 10s infinite;
+  }
+}
+
+@keyframes calltoaction {
+  from {
+    box-shadow: 0 0 4px 0 rgba(#003566, 0.2);
+  }
+  to {
+    box-shadow: 0 0 4px 6px rgba(0, 54, 102, 0.2);
+  }
+}
+
+@keyframes loading {
+  0% {
+    background-color: #ffbe0b;
+  }
+  35% {
+    background-color: #ff006e;
+  }
+  65% {
+    background-color: #8338ec;
   }
 }
