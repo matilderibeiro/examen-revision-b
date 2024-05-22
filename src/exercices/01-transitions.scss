@@ -38,10 +38,12 @@
   transition: color 0.5s;
   transition-duration: 0.5s;
   transition-delay: 0s;
+  line-height: 20px; /* 125% */
 }
 
 .article:hover {
   color: #1d3557;
+  line-height: 20px; /* 125% */
 }
 
 .article-title {
@@ -49,9 +51,10 @@
   font-size: 24px;
   transition-duration: 0.5s;
   transition-delay: 0s;
+  line-height: 20px; /* 125% */
 }
 
-.article .article-title:hover {
+.article-title:hover {
   color: #1d3557;
   font-size: 29px;
 }
